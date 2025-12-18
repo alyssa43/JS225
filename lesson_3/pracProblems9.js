@@ -75,4 +75,3 @@
 
 // // ANSWER: The code will log: `Amazebulous!`
 // // Similarly to the previous question, this is because we use `bind` to permanently bind the `obj` object as the context whenever `bar` is invoked. So, even though we use `call` to try and change the context to `otherObj` we are unsuccessful because `bind` permanently binds the context.
-
