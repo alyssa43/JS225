@@ -11,7 +11,6 @@ function assert(condition, msg) {
   if (!condition) throw new Error(msg);
 }
 
-// Part One
 console.log('\n=== PART 1: EXPENSE ===\n');
 
 // - Has an **id, amount, date, and category**.
@@ -133,7 +132,7 @@ try {
   pass('Allows known categories');
 } catch (error) { fail(error.message) }
 
-// - Disallows known categories
+// - Disallows unknown categories
 try {
   console.log('- Disallows known categories');
   const manager = new ExpenseManager();
